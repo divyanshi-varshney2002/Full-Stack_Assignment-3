@@ -5,14 +5,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticket App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
     <style>
-
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            width: 100%;
+            height: 110px;
+            background-color: rgb(64, 72, 104);
+            display: flex;
+            flex-wrap: wrap;
+            padding: 25px;
+        }
+        .colorbox{
+            background-color: rgba(128, 128, 128, 0.474);
+            width: 300px;
+            height: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        } 
+        .btns{
+            margin-left: 100px;
+            background-color: rgba(128, 128, 128, 0.427);
+            width: fit-content;
+            height: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        #pink{
+            width: 40px;
+            height: 30px;
+            border-radius: 10%;
+            margin: 15px;
+            background-color: palevioletred;
+        } #blue {
+            width: 40px;
+            height: 30px;
+            border-radius: 10%;
+            margin: 15px;
+            background-color: blue;
+        }#green {
+            width: 40px;
+            height: 30px;
+            border-radius: 10%;
+            margin: 15px;
+            background-color: green;
+        }#black{
+            width: 40px;
+            height: 30px;
+            border-radius: 10%;
+            margin: 15px;
+            background-color: black;
+        }
+        /* #pink:hover{
+            background-color: grey;
+        } #blue:hover{
+            background-color: grey;
+        } #green:hover{
+            background-color: grey;
+        } #black:hover{
+            background-color: grey;
+        } */
+        .fa-solid{
+            color: white;
+            font-size: 35px;
+            padding: 15px;
+        }
+        .h:hover{
+            background-color: grey;
+        }
     </style>
 </head>
 <body>
-    
+    <div class="header">
+        <div class="colorbox">
+            <div class="h" id="pink"></div>
+            <div class="h" id="blue"></div>
+            <div class="h" id="green"></div>
+            <div class="h" id="black"></div>
+        </div>
+        <div class="btns">
+            <i class="fa-solid fa-plus h"></i>
+            <i class="fa-solid fa-trash-can h"></i>
+        </div>
+    </div>
     <script>
-        
+
     </script>
 </body>
 </html>
